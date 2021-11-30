@@ -1,3 +1,15 @@
 body {
+    background-color: #e0bf6cfa;
 
+}
+
+.cool{
+    width: auto;
+    height: 100px;
+    background-color: rgb(78, 78, 233);
+    transition: background-color 1s;
+}
+
+.cool.red{
+    background-color: crimson;
 }
