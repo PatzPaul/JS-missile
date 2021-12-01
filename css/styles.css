@@ -7,9 +7,9 @@ body {
     width: auto;
     height: 100px;
     background-color: rgb(78, 78, 233);
-    transition: background-color 1s;
+    transition: background-color 3s;
 }
 
-.cool.red{
+.coolred{
     background-color: crimson;
 }

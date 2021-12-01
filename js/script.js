@@ -10,14 +10,13 @@ else {
     str = null;
 } */
 var doStuff = function (){
-    var currentClassname = document.getElementById("cool").className;
+   var currentClassname = document.getElementById('cool');
+       //changing the class name
         if (currentClassname == 'cool'){
-            document.getElementById("cool").ClassName = 'cool red';
+            document.getElementById('cool').className = 'coolred';
         } else {
-            document.getElementById("cool").ClassName ='cool';
+            document.getElementById('cool').className ='coolred';
         }
-//changing class name
-    document.getElementById("cool").className = ("cool red");
 }
 //this var shows some car stuff
 var Car = {
