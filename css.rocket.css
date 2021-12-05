@@ -1,0 +1,120 @@
+
+body{
+    background-color: rgb(90, 90, 240);
+}
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(151, 235, 5);
+    
+}
+.button{ color: rgb(48, 6, 14);
+    font-size: 50px;
+    font-family: fantasy;
+}
+.left{
+    background-color: rgb(248, 11, 11);
+    background-image: linear-gradient(rgba(231, 13, 13, 0.733),rgb(199, 199, 42),rgba(65, 6, 6, 0.829));
+    position: fixed;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.right{
+    background-color: rgb(248, 11, 11);
+    background-image: linear-gradient(rgba(241, 253, 253, 0.959),rgb(10, 187, 241),rgb(30, 6, 247));
+    position: fixed;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    padding-left: 12px;
+    border-top-left-radius: 85%;
+    border-bottom-left-radius: 65px;
+    right:0;
+
+}
+.missile1 {
+    position: absolute;
+    left: 40%;
+    bottom: 30px;
+    width: 20px;
+    height: 150px;
+    border-top-left-radius:45% ;
+    border-top-right-radius: 45%;
+    background-color: rgb(228, 10, 50);
+    transition: bottom 1000ms ;
+}
+.missile2{
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    width: 20px;
+    height: 150px;
+    border-top-left-radius:45% ;
+    border-top-right-radius: 45%;
+    background-color: rgb(228, 10, 50);
+}
+
+.missile3{
+    position: absolute;
+    left: 60%;
+    bottom: 30px;
+    width: 20px;
+    height: 150px;
+    border-top-left-radius:45% ;
+    border-top-right-radius: 45%;
+    background-color: rgb(228, 10, 50);
+
+}
+.missile4{
+    position: absolute;
+    left: 70%;
+    bottom: 30px;
+    width: 20px;
+    height: 150px;
+    border-top-left-radius:45% ;
+    border-top-right-radius: 45%;
+    background-color: rgb(228, 10, 50);
+
+
+}
+.missile1flying{
+    bottom: 1000px;
+}
+.ground{
+    background-color:burlywood;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 28px;
+    width: 100%;
+}
+.target1{
+    background-color: coral;
+    position:absolute;
+    left: 70%;
+    top: 50%;
+    border-radius: 60%;
+    width: 20px;
+    height: 20px;
+}
+.target2{
+    background-color: coral;
+    position:absolute;
+    left: 50%;
+    border-radius: 60%;
+    width: 20px;
+    height: 20px;
+}
+.target3{
+    background-color: coral;
+    position:absolute;
+    left: 83%;
+    top:35%;
+    border-radius: 60%;
+    width: 20px;
+    height: 20px;
+}
