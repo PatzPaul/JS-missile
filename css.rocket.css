@@ -7,8 +7,30 @@ h1{
     color: rgb(151, 235, 5);
     
 }
-.button{ color: rgb(48, 6, 14);
-    font-size: 50px;
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;    
+}
+.State1,
+.State2,
+.State3,
+.State4,
+.State5,
+.State6{
+    display: none;
+
+}
+
+body.body-State1 .State1{display: block;}
+body.body-State2 .State2{display: block;}
+body.body-State3 .State3{display: block;}
+body.body-State4 .State4{display: block;}
+body.body-State5 .State5{display: block;}
+body.body-State6 .State6{display: block;}
+
+
+a.button{ color: rgb(48, 6, 14);
+    font-size: 30px;
     font-family: fantasy;
 }
 .left{
@@ -36,6 +58,12 @@ h1{
     right:0;
 
 }
+.button{
+    border: darkgoldenrod;
+    background-color: yellowgreen;
+    border-radius: 30%;
+    background-image: linear-gradient(rgb(250, 250, 9),rgb(48, 4, 4));
+}
 .missile1 {
     position: absolute;
     left: 40%;
@@ -45,7 +73,7 @@ h1{
     border-top-left-radius:45% ;
     border-top-right-radius: 45%;
     background-color: rgb(228, 10, 50);
-    transition: bottom 1000ms ;
+    transition: bottom 10000ms ;
 }
 .missile2{
     position: absolute;
@@ -56,6 +84,7 @@ h1{
     border-top-left-radius:45% ;
     border-top-right-radius: 45%;
     background-color: rgb(228, 10, 50);
+    transition: bottom 9000ms ;
 }
 
 .missile3{
@@ -67,8 +96,9 @@ h1{
     border-top-left-radius:45% ;
     border-top-right-radius: 45%;
     background-color: rgb(228, 10, 50);
-
+    transition: bottom 8000ms ;
 }
+
 .missile4{
     position: absolute;
     left: 70%;
@@ -78,9 +108,21 @@ h1{
     border-top-left-radius:45% ;
     border-top-right-radius: 45%;
     background-color: rgb(228, 10, 50);
-
-
+    transition: bottom 7000ms ;
 }
+
+
+body.body-State1 .missile1,
+body.body-State1 .missile2,
+body.body-State1 .missile3,
+body.body-State1 .missile4{transition: none;}
+
+body.body-State3 .missile1,
+body.body-State3 .missile2,
+body.body-State3 .missile3,
+body.body-State3 .missile4
+{bottom: 1000px;}
+
 .missile1flying{
     bottom: 1000px;
 }
@@ -100,6 +142,7 @@ h1{
     border-radius: 60%;
     width: 20px;
     height: 20px;
+    
 }
 .target2{
     background-color: coral;
@@ -108,6 +151,7 @@ h1{
     border-radius: 60%;
     width: 20px;
     height: 20px;
+   
 }
 .target3{
     background-color: coral;
@@ -117,4 +161,8 @@ h1{
     border-radius: 60%;
     width: 20px;
     height: 20px;
+   
 }
+.target.target1{display: block;}
+.target.target2{display: block;}
+.target.target3{display: block;}

@@ -11,17 +11,44 @@
         <h1>May Name Is Jeff</h1>
 
     </header>
-    <body>
+    <body class="body-State1">
         <div class="left">
-        <div class="State1">
+        
+            <div class="State1">
           
             <h1>Launch Protocols</h1>
-            <a href="#" class="button">Target Select</a>
+            <a href="#" class="button" onclick="changeState(2)">Target Select</a>
         </div>
         <div class="State2">
-            <h1> INITIATE T-MINUS </h1>
-            <a href="#" class="button" onclick="Startcountdown">LAUNCH</a>
+          
+            <h1 class="target">choose Target</h1>
+            <a href="#" class="Radio" onclick="changeState(3)">Gotham</a>
+            <a href="#" class="Radio" onclick="changeState(3)">Atlantis</a>
+            <a href="#" class="Radio" onclick="changeState(3)">Metropolis</a>
+
         </div>
+        <div class="State3">
+            <h1> INITIATE T-MINUS </h1>
+            <a href="#" class="button" onclick="changeState(4)">LAUNCH</a>
+        </div>
+       
+        <div class="State4">   
+            <h2>Countdown Imminent</h2>
+            <h1 id="Countdown">10</h1>
+            <a href="#" class="button" onclick="changeState(1);">Abort</a>
+        </div>
+        <div class="State5">
+          
+            <h2>Launch Successful</h2>
+        </div>
+        
+            <div class="State6">
+          
+                <h2>Missile Didnt reach</h2>
+                <a href="#" class="button" onclick="changeState(3);">Retry</a>
+            </div>
+         
+
     </div>
            
             <div class="right">
