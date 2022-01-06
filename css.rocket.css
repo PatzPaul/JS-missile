@@ -9,17 +9,14 @@ h1{
 }
 h2{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: red;    
+    color: cadetblue;    
 }
 .State1,
 .State2,
 .State3,
 .State4,
 .State5,
-.State6{
-    display: none;
-
-}
+.State6{display: none;}
 
 body.body-State1 .State1{display: block;}
 body.body-State2 .State2{display: block;}

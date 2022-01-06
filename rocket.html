@@ -28,24 +28,24 @@
 
         </div>
         <div class="State3">
-            <h1> INITIATE T-MINUS </h1>
-            <a href="#" class="button" onclick="changeState(4)">LAUNCH</a>
+            <h1> INITIATING LAUNCH </h1>
+            <a href="#" class="button" onclick="changeState(3)">STANDBY</a>
         </div>
        
         <div class="State4">   
             <h2>Countdown Imminent</h2>
             <h1 id="Countdown">10</h1>
-            <a href="#" class="button" onclick="changeState(1);">Abort</a>
+            <a href="#" class="button" onclick="changeState(4);">Abort</a>
         </div>
         <div class="State5">
           
-            <h2>Launch Successful</h2>
+            <h2><a onclick="changeState(3)">Launch Successful</a></h2>
         </div>
         
             <div class="State6">
           
-                <h2>Missile Didnt reach</h2>
-                <a href="#" class="button" onclick="changeState(3);">Retry</a>
+                <h2>Missile Didnt reach...AUTO RETRY IN PROGRESS</h2>
+                <a href="#" class="button" onclick="changeState(3);">FORCE_Retry</a>
             </div>
          
 
